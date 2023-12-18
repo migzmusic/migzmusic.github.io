@@ -1,0 +1,14 @@
+* 
+    {
+        background-color: #0A0D14;
+        padding: 0%;
+        margin: 0%;
+    }
+
+.queenimage {
+    position: flex;
+}
+
+.NavBarWords {
+    display: flex;
+}

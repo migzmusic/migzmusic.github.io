@@ -136,3 +136,24 @@
     padding: 9px;
 }
 
+.AboutMe {
+    background-color: #0a0d14;
+    padding-top: 100px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.AboutmeWords {
+    display: absolute;
+    padding-left: 100px;
+}
+
+.Aboutmetitle {
+    padding-left: 100px;
+    font-size: 40px;
+}
+
+.Aboutmepara {
+    width: 700px;
+    font-size: 35px;
+}

@@ -2,7 +2,6 @@
     {
         padding: 0%;
         margin: 0%;
-        color: white;
     }
 
 .logo img{
@@ -61,12 +60,15 @@
 
 .listenhere {
     position: absolute;
-    top: 440px;
-    font-size: 17px;
-    margin-left: 193px;
-    background-color: orange;
+    top: 445px;
+    font-size: 14px;
+    margin-left: 199px;
+    background-color: #FF8542;
     color: black;
     padding: 9px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .queenimage img {
@@ -110,30 +112,42 @@
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Strumming2023{
     display: absolute;
     margin-left: 11.5%;
-    background-color: orange;
-    color: black;
+    background-color: #FF8542;
     padding: 9px;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Originalsongs {
     display: absolute;
     margin-left: 0%;
-    background-color: orange;
+    background-color: #FF8542;
     color: black;
     padding: 9px;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Coversongs{
     display: absolute;
     margin-right: 13%;
-    background-color: orange;
+    background-color: #FF8542;
     color: black;
     padding: 9px;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .AboutMe {
@@ -141,19 +155,93 @@
     padding-top: 100px;
     display: flex;
     padding-left: 20px;
+    color: white;
 }
 
 .AboutmeWords {
     display: absolute;
-    padding-left: 100px;
+    margin-left: 100px;
+    width: 750px;
+    color: white;
 }
 
 .Aboutmetitle {
-    padding-left: 100px;
-    font-size: 40px;
+    padding-left: 180px;
+    font-size: 25px;
+    padding-top: 80px;
+    font-family: arial;
 }
 
 .Aboutmepara {
-    width: 700px;
+    width: 520px;
     font-size: 35px;
+    padding-top: 20px;
+    padding-left: 40px;
+    text-align: justify;
+    line-height: 1.4;
 }
+
+.keepreading {
+    color: black;
+    background-color: #FF8542;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 205px ;
+    font-size: 15px;
+    margin-left: 140px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscriptionbar{
+    background-color: #0a0d14;
+}
+
+.subwords {
+    padding-left: 28%;
+    padding-top: 100px;
+    color: white;
+}
+
+.box {
+    background-color: grey;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-right: 275px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Submit {
+    margin-left: 45%;
+    margin-top: 30px;
+    background-color: #FF8542;
+    width: fit-content;
+    padding-left: 13px;
+    padding-right: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: absolute;
+}
+
+.footerone {
+    background-color: #0a0d14;
+    height: 100px;
+    width: 100%;
+}
+
+/*.footer {
+    background-color: black;
+    padding-top: 100px;
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+
+

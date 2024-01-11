@@ -1,0 +1,296 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.backgroundimg {
+    position: absolute;
+    width: 100%;
+    height: 705px;
+    left: 0px;
+    top: 0px;
+    text-align: left;
+    background-color: #0a0d14;
+}
+
+.backgroundimg img{
+    opacity: 50%;
+}
+
+.portfoliotext {
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    font-size: 50px;
+    color: #e9cdbd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.images {
+    background-color: #0a0d14;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 800px;
+}
+
+.strummingimg {
+    display: absolute;
+    margin-left: 8%;
+    width: 100%;
+    height: 100%;
+}
+
+.originalimg {
+    display: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.coverimg {
+    display: absolute;
+    margin-right: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.labels{
+    background-color: #0a0d14;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Strumming2023{
+    display: absolute;
+    margin-left: 11.5%;
+    background-color: #FF8542;
+    padding: 9px;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Originalsongs {
+    display: absolute;
+    margin-left: 0%;
+    background-color: #FF8542;
+    color: black;
+    padding: 9px;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Coversongs{
+    display: absolute;
+    margin-right: 13%;
+    background-color: #FF8542;
+    color: black;
+    padding: 9px;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    background-color: #0a0d14;
+    padding-top: 100px;
+    position: absolute;
+    width: 100%;
+}
+
+.bannertext {
+    padding-left: 30%;
+    position: absolute;
+    font-size: 40px;
+    top: 170px;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 #000, /* Top-left shadow */
+        1px -1px 0 #000, /* Top-right shadow */
+        -1px 1px 0 #000, /* Bottom-left shadow */
+        1px 1px 0 #000; /* Bottom-right shadow */
+}
+
+.strummin {
+    background-color: #0a0d14;
+}
+
+.strummincontent {
+    display: flex;
+    padding-top: 400px;
+    color: white;
+}
+
+.strumminwords {
+    margin-left: 40px;
+}
+
+.strumminrole {
+    margin-left: 270px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.strummingdescription {
+    padding-top: 30px;
+    font-size: 30px;
+    width: 600px;
+    text-align: justify;
+    line-height: 40px;
+    margin-left: 60px;
+}
+
+.keepreading {
+    color: black;
+    background-color: #FF8542;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 205px ;
+    font-size: 15px;
+    margin-left: 250px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+}
+
+.coversongs{
+    background-color: #0a0d14;
+}
+
+.banner1 {
+    background-color: #0a0d14;
+    padding-top: 100px;
+    position: absolute;
+    width: 100%;
+}
+
+.bannertext1 {
+    padding-left: 34%;
+    position: absolute;
+    font-size: 40px;
+    top: 170px;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 #000, /* Top-left shadow */
+        1px -1px 0 #000, /* Top-right shadow */
+        -1px 1px 0 #000, /* Bottom-left shadow */
+        1px 1px 0 #000; /* Bottom-right shadow */
+}
+
+.coversongscontent {
+    display: flex;
+    padding-top: 400px;
+    color: white;
+}
+
+.coversongswords {
+    margin-left: 40px;
+}
+
+.coversongsprocess {
+    margin-left: 230px;
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+.coversongsdescription {
+    padding-top: 30px;
+    font-size: 30px;
+    width: 600px;
+    text-align: justify;
+    line-height: 40px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.listenhere {
+    color: black;
+    background-color: #FF8542;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 205px ;
+    font-size: 15px;
+    margin-left: 250px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+}
+
+.originalsongs{
+    background-color: #0a0d14;
+}
+
+.banner2 {
+    background-color: #0a0d14;
+    padding-top: 100px;
+    position: absolute;
+    width: 100%;
+}
+
+.bannertext2 {
+    padding-left: 30%;
+    position: absolute;
+    font-size: 40px;
+    top: 170px;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 #000, /* Top-left shadow */
+        1px -1px 0 #000, /* Top-right shadow */
+        -1px 1px 0 #000, /* Bottom-left shadow */
+        1px 1px 0 #000; /* Bottom-right shadow */
+}
+
+.originalsongscontent {
+    display: flex;
+    padding-top: 360px;
+    color: white;
+    background-color: #0a0d14;
+}
+
+.originalsongswords {
+    margin-left: 370px;
+    background-color: #0a0d14;
+}
+
+.originalsongsprocess {
+    margin-left: 230px;
+    font-size: 25px;
+}
+
+.originalsongsdescription {
+    background-color: #0a0d14;
+    padding-top: 30px;
+    font-size: 30px;
+    width: 600px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 70px;
+    margin-top: 0px;
+}
+
+.FollowonSpotify {
+    background-color: #FF8542;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 305px;
+    margin-right: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

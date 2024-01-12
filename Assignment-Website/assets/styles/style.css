@@ -6,6 +6,10 @@
 
 /* homepage */ 
 
+.body {
+    width: 100% ;
+}
+
 .latestrelease {
     position: absolute;
     top: 200px;
@@ -44,6 +48,7 @@
 .images {
     background-color: #0a0d14;
     display: flex;
+    justify-content: center;
     justify-content: space-between;
     padding-top: 800px;
 }
@@ -116,6 +121,7 @@
     padding-top: 100px;
     display: flex;
     padding-left: 20px;
+    height: auto;
     color: white;
 }
 
@@ -158,6 +164,7 @@
 
 .subscriptionbar{
     background-color: #0a0d14;
+    width: 100%;
 }
 
 .subwords {

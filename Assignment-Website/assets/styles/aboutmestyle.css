@@ -3,6 +3,10 @@
     margin: 0%;
 }
 
+.body {
+    width: 100%;
+}
+
 .aboutme {
     display: absolute;
     padding-top: 200px;

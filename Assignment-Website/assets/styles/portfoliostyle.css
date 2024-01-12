@@ -1,7 +1,6 @@
 * {
     margin: 0%;
     padding: 0%;
-    width: 100%;
 }
 
 .backgroundimg {
@@ -23,7 +22,7 @@
 
 .portfoliotext {
     position: absolute;
-    top: 300px;
+    top: 35%;
     left: 250px;
     font-size: 50px;
     color: #e9cdbd;
@@ -34,7 +33,7 @@
     background-color: #0a0d14;
     display: flex;
     justify-content: space-between;
-    padding-top: 800px;
+    padding-top: 50%;
     justify-items: center;
 }
 

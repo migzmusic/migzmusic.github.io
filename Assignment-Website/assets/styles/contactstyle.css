@@ -9,19 +9,18 @@
 }
 
 .Boxes {
-    padding-top: 200px;
+    padding-top: 10%;
     background-color: #0a0d14;
 }
 
 .ContactMe {
     color: white;
-    margin-left: 700px;
+    margin-left: 46%;
 }
 
 .Name {
-    margin-left: 320px;
-    margin-top: 30px;
-    margin-right: 275px;
+    margin-left: 21%;
+    margin-top: 3%;
     input[type="text"] {
         padding: 10px; /* Set padding for better appearance */
         width: 930px; /* Set width as needed */
@@ -30,9 +29,8 @@
 }
 
 .Subject {
-    margin-left: 320px;
-    margin-top: 30px;
-    margin-right: 275px;
+    margin-left: 21%;
+    margin-top: 1%;
     input[type="text"] {
         padding: 10px; /* Set padding for better appearance */
         width: 930px; /* Set width as needed */
@@ -41,9 +39,8 @@
 }
 
 .Email {
-    margin-left: 320px;
-    margin-top: 30px;
-    margin-right: 275px;
+    margin-left: 21%;
+    margin-top: 1%;
     input[type="text"] {
         padding: 10px; /* Set padding for better appearance */
         width: 930px; /* Set width as needed */
@@ -52,9 +49,8 @@
 }
 
 .Message {
-    margin-left: 320px;
-    margin-top: 30px;
-    margin-right: 275px;
+    margin-left: 21%;
+    margin-top: 1%;
     input[type="text"] {
         padding: 10px; /* Set padding for better appearance */
         margin: 0%;
@@ -65,11 +61,10 @@
 }
 
 .Submit {
-    margin-top: 30px;
-    margin-right: 690px;
-    margin-left: 720px;
+    margin-top: 2%;
+    margin-left: 48%;
     font-size: 12px;
-    padding-top: 10px;
+    padding-top: 3%;
     padding-bottom: 10px;
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif;

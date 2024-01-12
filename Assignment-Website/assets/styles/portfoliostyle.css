@@ -13,7 +13,6 @@
     width: 100%;
     width: 100%;
     height: auto;
-    height: 705px;
     left: 0px;
     top: 0px;
     text-align: left;
@@ -28,7 +27,7 @@
 .portfoliotext {
     position: absolute;
     top: 35%;
-    left: 250px;
+    left: 15%;
     font-size: 50px;
     color: #e9cdbd;
     font-family: Arial, Helvetica, sans-serif;
@@ -37,43 +36,21 @@
 .images {
     background-color: #0a0d14;
     display: flex;
-    justify-content: space-between;
     padding-top: 50%;
-    justify-items: center;
-}
-
-.strummingimg {
-    position: absolute;
-    margin-left: 8%;
-    width: 100%;
-    height: 100%;
-}
-
-.coverimg {
-    position: absolute;
-    margin-right: 0%;
-    width: 100%;
-    height: 100%;
-}
-
-.originalimg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .labels{
     background-color: #0a0d14;
     display: flex;
-    padding-top: 15px;
+    padding-top: 2%;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    justify-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .Strumming2023{
-    position: absolute;
-    margin-left: 13%;
     background-color: #FF8542;
     padding: 9px;
     font-size: 14px;
@@ -83,9 +60,6 @@
 }
 
 .Coversongs{
-    position: absolute;
-    margin-right: 13%;
-    margin-left: 20.5%;
     background-color: #FF8542;
     color: black;
     padding: 9px;
@@ -96,16 +70,15 @@
 }
 
 .Originalsongs {
-    position: absolute;
     background-color: #FF8542;
     color: black;
-    margin-left: 8%;
     padding: 9px;
     font-size: 14px;
     padding-top: 16px;
     padding-bottom: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .banner {
     background-color: #0a0d14;
@@ -152,18 +125,18 @@
 }
 
 .strumminrole {
-    margin-left: 270px;
+    margin-left: 39%;
     font-size: 25px;
-    margin-top: 25%;
+    margin-top: 10%;
 }
 
 .strummingdescription {
-    padding-top: 30px;
+    padding-top: 5%;
     font-size: 30px;
-    width: 600px;
+    width: 80%;
     text-align: justify;
     line-height: 40px;
-    margin-left: 60px;
+    margin-left: 10%;
 }
 
 .keepreading {
@@ -174,8 +147,8 @@
     padding-bottom: 20px;
     width: 205px ;
     font-size: 15px;
-    margin-left: 250px;
-    margin-top: 30px;
+    margin-left: 17%;
+    margin-top: 2%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     position: absolute;
@@ -187,8 +160,7 @@
 
 .banner1 {
     background-color: #0a0d14;
-    padding-top: 100px;
-    position: absolute;
+    padding-top: 6%;
     width: 100%;
 }
 
@@ -200,7 +172,7 @@
     padding-left: 34%;
     position: absolute;
     font-size: 40px;
-    top: 170px;
+    margin-top: 4%;
     color: white; 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -213,28 +185,28 @@
 
 .coversongscontent {
     display: flex;
-    padding-top: 400px;
+    padding-top: 4%;
     color: white;
 }
 
 .coversongswords {
-    margin-left: 40px;
+    margin-left: 4%;
 }
 
 .coversongsprocess {
-    margin-left: 230px;
+    margin-left: 37%;
     font-size: 25px;
-    margin-top: 70px;
+    margin-top: 7%;
 }
 
 .coversongsdescription {
-    padding-top: 30px;
+    padding-top: 1%;
     font-size: 30px;
-    width: 600px;
+    width: 80%;
     text-align: justify;
     line-height: 40px;
-    margin-left: 60px;
-    margin-top: 30px;
+    margin-left: 10%;
+    margin-top: 5%;
 }
 
 .listenhere {
@@ -245,8 +217,8 @@
     padding-bottom: 20px;
     width: 205px ;
     font-size: 15px;
-    margin-left: 250px;
-    margin-top: 30px;
+    margin-left: 18%;
+    margin-top: 3%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     position: absolute;
@@ -259,7 +231,7 @@
 
 .banner2 {
     background-color: #0a0d14;
-    padding-top: 100px;
+    padding-top: 7%;
     position: absolute;
     width: 100%;
 }
@@ -272,7 +244,7 @@
     padding-left: 30%;
     position: absolute;
     font-size: 40px;
-    top: 170px;
+    padding-top: 4%;
     color: white; 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -285,7 +257,7 @@
 
 .originalsongscontent {
     display: flex;
-    padding-top: 360px;
+    padding-top: 25%;
     color: white;
     background-color: #0a0d14;
 }
@@ -296,27 +268,27 @@
 }
 
 .originalsongsprocess {
-    margin-left: 230px;
+    margin-left: 24%;
     font-size: 25px;
 }
 
 .originalsongsdescription {
     background-color: #0a0d14;
-    padding-top: 30px;
+    padding-top: 4%;
     font-size: 30px;
-    width: 600px;
+    width: 60%;
     text-align: center;
     line-height: 40px;
-    margin-left: 70px;
-    margin-top: 0px;
+    margin-left: 10%;
+    margin-top: 0%;
 }
 
 .FollowonSpotify {
     background-color: #FF8542;
     text-align: center;
-    margin-top: 30px;
-    margin-left: 305px;
-    margin-right: 500px;
+    margin-top: 3%;
+    margin-left: 26%;
+    margin-right: 45%;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 15px;

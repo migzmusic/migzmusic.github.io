@@ -8,7 +8,6 @@
 
 .body {
     width: 100% ;
-    justify-content: center;
 }
 
 .latestrelease {
@@ -49,28 +48,28 @@
 
 .images {
     background-color: #0a0d14;
-    position: flex;
+    display: flex;
     justify-content: space-between;
     padding-top: 50%;
     justify-items: center;
 }
 
 .strummingimg {
-    position: absolute;
+    display: absolute;
     margin-left: 8%;
     width: 100%;
     height: 100%;
 }
 
 .coverimg {
-    position: absolute;
+    display: absolute;
     margin-right: 0%;
     width: 100%;
     height: 100%;
 }
 
 .originalimg {
-    position: absolute;
+    display: absolute;
     width: 100%;
     height: 100%;
 }
@@ -85,7 +84,7 @@
 }
 
 .Strumming2023{
-    position: absolute;
+    display: absolute;
     margin-left: 13%;
     background-color: #FF8542;
     padding: 9px;
@@ -96,7 +95,7 @@
 }
 
 .Coversongs{
-    position: absolute;
+    display: absolute;
     margin-right: 13%;
     margin-left: 20.5%;
     background-color: #FF8542;
@@ -109,7 +108,7 @@
 }
 
 .Originalsongs {
-    position: absolute;
+    display: absolute;
     background-color: #FF8542;
     color: black;
     margin-left: 8%;
@@ -124,14 +123,14 @@
 .AboutMe {
     background-color: #0a0d14;
     padding-top: 100px;
-    position: flex;
+    display: flex;
     padding-left: 20px;
     height: auto;
     color: white;
 }
 
 .AboutmeWords {
-    position: absolute;
+    display: absolute;
     margin-left: 100px;
     width: 750px;
     color: white;
@@ -204,7 +203,7 @@ form {
     padding-bottom: 17px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    position: absolute;
+    display: absolute;
     
 }
 

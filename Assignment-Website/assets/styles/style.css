@@ -101,13 +101,12 @@
 }
 
 .AboutmeWords {
-    margin-left: 7%;
     width: 750px;
     color: white;
+    padding-left: 10%;
 }
 
 .Aboutmetitle {
-    padding-left: 26%;
     font-size: 25px;
     padding-top: 9%;
     font-family: arial;
@@ -117,7 +116,6 @@
     width: 520px;
     font-size: 35px;
     padding-top: 4%;
-    padding-left: 6%;
     text-align: justify;
     line-height: 1.4;
 }
@@ -139,21 +137,24 @@
 .subscriptionbar{
     background-color: #0a0d14;
     width: 100%;
+    text-align: center;
 }
 
 .subwords {
-    padding-left: 28%;
+    text-align: center;
     padding-top: 10%;
     color: white;
 }
 
 .box {
-    margin-left: 20%;
-    margin-top: 30px;
+    margin-left: 23%;
+    text-align: center;
+    align-items: center;
+    margin-top: 5%;
     input[type="text"] {
         padding: 10px; /* Set padding for better appearance */
-        width: 930px; /* Set width as needed */
-        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        width: 800px; /* Set width as needed */
+
     }
 }
 
@@ -164,17 +165,14 @@ form {
 }
 
 .Submit {
-    margin-left: 130%;
+    margin-left: 115%;    
     margin-top: 30px;
-    width: fit-content;
     padding-left: 13px;
     padding-right: 15px;
     padding-top: 17px;
     padding-bottom: 17px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    display: absolute;
-    
 }
 
 button[type="submit"] {

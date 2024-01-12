@@ -11,17 +11,18 @@
 .Boxes {
     padding-top: 10%;
     background-color: #0a0d14;
+    justify-content: center;
 }
 
 .ContactMe {
     color: white;
-    margin-left: 46%;
+    text-align: center;
 }
 
 .Name {
-    margin-left: 21%;
+    text-align: center;
     margin-top: 3%;
-    input[type="text"] {
+    input {
         padding: 10px; /* Set padding for better appearance */
         width: 930px; /* Set width as needed */
         box-sizing: border-box; /* Include padding and border in the element's total width and height */
@@ -29,9 +30,9 @@
 }
 
 .Subject {
-    margin-left: 21%;
+    text-align: center;
     margin-top: 1%;
-    input[type="text"] {
+    input {
         padding: 10px; /* Set padding for better appearance */
         width: 930px; /* Set width as needed */
         box-sizing: border-box; /* Include padding and border in the element's total width and height */
@@ -39,9 +40,9 @@
 }
 
 .Email {
-    margin-left: 21%;
+    text-align: center;
     margin-top: 1%;
-    input[type="text"] {
+    input {
         padding: 10px; /* Set padding for better appearance */
         width: 930px; /* Set width as needed */
         box-sizing: border-box; /* Include padding and border in the element's total width and height */
@@ -49,9 +50,9 @@
 }
 
 .Message {
-    margin-left: 21%;
+    text-align: center;
     margin-top: 1%;
-    input[type="text"] {
+    input {
         padding: 10px; /* Set padding for better appearance */
         margin: 0%;
         width: 930px; /* Set width as needed */
@@ -62,7 +63,7 @@
 
 .Submit {
     margin-top: 2%;
-    margin-left: 48%;
+    text-align: center;
     font-size: 12px;
     padding-top: 3%;
     padding-bottom: 10px;

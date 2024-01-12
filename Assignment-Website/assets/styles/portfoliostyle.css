@@ -117,6 +117,10 @@
     width: 100%;
 }
 
+.bannershape img {
+    width: 100%;
+}
+
 .bannertext {
     padding-left: 30%;
     position: absolute;
@@ -187,6 +191,10 @@
     width: 100%;
 }
 
+.bannershape1 img {
+    width: 100%;
+}
+
 .bannertext1 {
     padding-left: 34%;
     position: absolute;
@@ -252,6 +260,10 @@
     background-color: #0a0d14;
     padding-top: 100px;
     position: absolute;
+    width: 100%;
+}
+
+.bannershape2 img {
     width: 100%;
 }
 

@@ -66,6 +66,8 @@
     display: flex;
     padding-top: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: justify;
+    justify-items: center;
 }
 
 .Strumming2023{
@@ -111,6 +113,10 @@
     width: 100%;
 }
 
+.bannershape {
+    width: 100%;
+}
+
 .bannertext {
     padding-left: 30%;
     position: absolute;
@@ -132,7 +138,7 @@
 
 .strummincontent {
     display: flex;
-    padding-top: 400px;
+    padding-top: 25%;
     color: white;
 }
 
@@ -143,7 +149,7 @@
 .strumminrole {
     margin-left: 270px;
     font-size: 25px;
-    margin-top: 50px;
+    margin-top: 25%;
 }
 
 .strummingdescription {
@@ -239,6 +245,7 @@
 
 .originalsongs{
     background-color: #0a0d14;
+    justify-content: center;
 }
 
 .banner2 {

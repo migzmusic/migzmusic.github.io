@@ -3,6 +3,11 @@
     margin: 0%;
 }
 
+.body {
+    width: 100%;
+    align-items: center;
+}
+
 .Boxes {
     display: absolute;
     padding-top: 200px;

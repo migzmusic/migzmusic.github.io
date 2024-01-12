@@ -48,6 +48,20 @@
     position: absolute;
 }
 
+a {
+    text-decoration: none; /* Remove underlines */
+    color: white; /* Set link color */
+    font-weight: bold; /* Set font weight */
+    font-size: 20px;
+}
+
+/* Style for text links when hovered over */
+a:hover {
+    color: #ff6347; /* Change link color on hover */
+}
+
+
+
 .footer{
     color: white;
 }
@@ -55,37 +69,37 @@
 .Home1 {
     font-family: sans-serif;
     font-size: 12px;
-    padding-left:  40%;
     padding-top: 300px;
     color: white;
     position: absolute;
+    margin-left: 37%;
 }
 
-.Blogs1 {
+.Portfolio1 {
     font-family: sans-serif;
     font-size: 12px;
-    padding-left: 52%;
     padding-top: 300px;
     color: white;
     position: absolute;
+    margin-left: 50%;
 }
 
 .AboutMe1 {
     font-family: sans-serif;
     font-size: 12px;
-    padding-left: 65%;
     padding-top: 300px;
     color: white;
     position: absolute;
+    margin-left: 65%;
 }
 
 .Contact1 {
     font-family: sans-serif;
     font-size: 12px;
-    padding-left: 80%;
     padding-top: 300px;
     color: white;
     position: absolute;
+    margin-left: 80%;
 }
 
 .footerimage img{

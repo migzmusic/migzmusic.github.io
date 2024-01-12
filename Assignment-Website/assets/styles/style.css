@@ -51,12 +51,6 @@
     height: 100%;
 }
 
-.originalimg {
-    display: absolute;
-    width: 100%;
-    height: 100%;
-}
-
 .coverimg {
     display: absolute;
     margin-right: 0%;
@@ -64,30 +58,23 @@
     height: 100%;
 }
 
+.originalimg {
+    display: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 .labels{
     background-color: #0a0d14;
     display: flex;
-    justify-content: space-between;
     padding-top: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .Strumming2023{
     display: absolute;
-    margin-left: 11.5%;
+    margin-left: 13%;
     background-color: #FF8542;
-    padding: 9px;
-    font-size: 14px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.Originalsongs {
-    display: absolute;
-    margin-left: 0%;
-    background-color: #FF8542;
-    color: black;
     padding: 9px;
     font-size: 14px;
     padding-top: 16px;
@@ -98,8 +85,21 @@
 .Coversongs{
     display: absolute;
     margin-right: 13%;
+    margin-left: 20.5%;
     background-color: #FF8542;
     color: black;
+    padding: 9px;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Originalsongs {
+    display: absolute;
+    background-color: #FF8542;
+    color: black;
+    margin-left: 8%;
     padding: 9px;
     font-size: 14px;
     padding-top: 16px;
@@ -144,6 +144,7 @@
     padding: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
     width: 205px ;
     font-size: 15px;
     margin-left: 140px;
@@ -162,21 +163,25 @@
 }
 
 .box {
-    background-color: grey;
     margin-left: 300px;
     margin-top: 30px;
     margin-right: 275px;
-    font-size: 12px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    input[type="text"] {
+        padding: 10px; /* Set padding for better appearance */
+        width: 930px; /* Set width as needed */
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
 }
 
 .Submit {
-    margin-left: 45%;
+    margin-left: 400px;
     margin-top: 30px;
-    background-color: #FF8542;
     width: fit-content;
     padding-left: 13px;
     padding-right: 15px;
@@ -185,5 +190,14 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     display: absolute;
+    
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #FF8542;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
 }
 
